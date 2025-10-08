@@ -183,7 +183,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RPG Creator. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RPG Creator under MIT License. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
