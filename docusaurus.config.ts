@@ -73,12 +73,12 @@ const config: Config = {
 
     algolia: {
       // The application ID provided by Algolia
-      appId: process.env.ALGOLIA_APP_ID,
+      appId: "LQKR694OX3",
 
       // Public API key: it is safe to commit it
-      apiKey: process.env.ALGOLIA_API_KEY,
+      apiKey: "037d6b4d1831e9a40592ca2e3b789127",
 
-      indexName: process.env.ALGOLIA_INDEX_NAME,
+      indexName: "RPG Creator documentation",
 
       // Optional: see doc section below
       contextualSearch: true,
@@ -122,7 +122,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/Ward727a/rpgcreator-web',
+          href: 'https://github.com/Ward727a/rpgcreator-doc',
           label: 'GitHub',
           position: 'right',
         },
@@ -178,7 +178,7 @@ const config: Config = {
             },
             {
               label: 'GitHub - Documentation',
-              href: 'https://github.com/Ward727a/rpgcreator-web',
+              href: 'https://github.com/Ward727a/rpgcreator-doc',
             },
           ],
         },
