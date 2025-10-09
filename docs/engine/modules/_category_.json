@@ -1,0 +1,10 @@
+{
+  "label": "Modules",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Engine Modules",
+    "description": "Modules are .dll files that can be loaded into the engine to extend its functionality. They can provide new features, tools, or integrations that enhance the engine's capabilities.",
+    "slug": "/engine/modules"
+  }
+}

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Engine Library - Intro
+# Introduction
 
 In this section, you will be able to discover what RPG Creator is built on.
 
@@ -28,4 +28,4 @@ Here is a list of other libraries used by RPG Creator.
 - [AvaloniaInside.MonoGame](./avaloniainside-monogame.md) - A library to embed MonoGame inside Avalonia.
 - [Gum](./gum.md) - A library to create and manage UI in MonoGame - Other for now, should be in the main later on.
 
-*See another library that should be listed here? Feel free to open a PR to add it!*
+*See another library that should be listed here? Feel free to open an [issue](https://github.com/Ward727a/rpgcreator-doc/issues/new/choose) or make an [PR](/docs/Glossary.md#pr) to add it!*

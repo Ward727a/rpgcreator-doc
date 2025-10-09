@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
@@ -21,7 +20,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Free',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         RPG Creator is totally free, and will always be.<br/>
@@ -49,7 +47,7 @@ const FeatureList: FeatureItem[] = [
  *  </div>
  *
  */
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
